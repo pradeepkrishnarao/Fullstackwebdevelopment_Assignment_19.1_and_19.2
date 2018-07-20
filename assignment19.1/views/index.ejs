@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<%# HTML tag link to external style-myprofile.css file saved in the folder stylesheets%>
+<link rel="stylesheet" href="/stylesheets/style-myprofile.css">
+<%# HTML tag link to external bootstrap.min.css file saved in the folder stylesheets %>
+<link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+<%# Script loads from the external javascript file "myProfile.js" saved in the folder javascripts %>
+<script type="text/javascript" src="/javascripts/myProfile.js"></script>
+<title>assignment 19.1</title>
+</head>
+<body>
+<%# The web page gets centered in the browser %>
+<div class="centered"> 
+<%# This row class css attribute helps in layout designing of HTML elements and provides ample grid control rowwise %>
+<div class="row"> 
+<%# col-2 is a bootstrap grid control css class attribute and one class is user defined class css attribute %>
+	<div class="col-2, one"> 
+	<div id="bgcolor1">
+			<br>
+			<br>
+<%# myObject.last is a json object that stores the "last" attribute value defined in json format. During the call back of the function myProfile(), the browser engine renders myObject.last instance value into the "last" HTML element dynamically. %>
+			<div id="last" class="col-2, font1"></div>
+			<div id="first" class="col-2, font5"></div>
+			<div id="position" class="col-2, font2"></div>
+			<br>
+			<div id="detail3" class="col-2, font3"></div>
+			<br>
+			</div>
+			<div id="bgimage1"></div>
+			<header id="title3" class="font4"></header>
+				<div class="bgcolor2">
+			<br>
+			<br>
+			<table id="firsttosixth" class="font7"></table>
+			<br>
+			<header id="title4" class="font4"></header>
+			<br>
+			<br>
+			<div class="font6">
+				<div id="street1" class="bgcolor2"></div>
+				<div id="city1" class="bgcolor2"></div> 
+				<div id="country1" class="bgcolor2"></div>
+				<br> 
+				<div id="email1" class="bgcolor2"></div>
+				<br> 
+				<div id="website1" class="bgcolor2"></div>
+				<br> 
+				<div id="telephone1" class="bgcolor2"></div>
+				<br> 
+				<br> 
+			</div>
+			</div>
+			</div>
+			<div class="col-10, two">
+				<br>
+				<br>
+				<br>
+				<div id="title" class="col-1"></div>
+				<hr>
+				<br>
+				<div id="detail" class="col-5"></div>
+				<br>
+				<br>
+				<div id="title1" class="col-1"></div>
+				<hr>
+				<div class="col-5">
+					<div id="nameandplace"></div>
+					<div id="year1"></div>
+					<div id="degree1"></div>
+					<br>
+					<div id="name2"></div>
+					<div id="year2"></div>
+				</div>
+				<br>
+				<div id="nameplaceyear" class="col-6"></div>
+				<div class="col-5">
+				<div id="degree3"></div>
+				<div id="additional1"></div>
+				<div id="other1"></div>	
+				<br>
+				<br>
+				<div id="title2"></div>
+				</div>
+				<hr>
+				<div class="col-4">
+				<div id="position1andname4"></div>
+				<div id="placeandyear1"></div>
+				<div id="detail1"></div>
+				<br>
+				<div id="position2andname5"></div>
+				<div id="placeandyear2"></div>
+				<div id="detail2"></div>
+				</div>		
+		</div>
+	</div>
+</div>
+<script>
+<%# call back myProfile() from myProfile.js file stored in js folder %>
+myProfile();
+</script>
+<%# Script loads from the external jquery.js file saved in the folder javascripts %>
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<%# Script loads from the external bootstrap.min.js file saved in the folder javascripts %>
+<script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+</html>
+</body>

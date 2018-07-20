@@ -1,0 +1,59 @@
+{
+"title":"BASIC INFORMATION",
+"detail":"Total 8 years of cumulative experience in developing web applications using HTML, DHTML, CSS, Adobe PhotoShop, Java, AutoCAD and Microsoft Project. Professional understanding of system development life cycle (SDLC) such as Analysis/Design & Development."
+,
+"title1":"EDUCATION"
+,
+"university":
+[
+{"name":"Bangalore University",
+ "place":"Bangalore, Karnataka",
+ "year":"1991",
+ "degree":"Bachelor’s Degree in Civil Engineering"},
+ {"name":"DEV237x-Microsoft Professional Program",
+ "year":"Front End Web Development 2017"},
+ {"name":"Brainbench Certified Professional",
+ "place":"VA, U.S.A.",
+ "year":"2016",
+ "degree":"JavaScript 1.8",
+ "additional":"www.brainbench.com",
+ "other":"Web Design Concepts, OO Concepts, PHP 5.6 & Problem Solving – Qualitative Brainbench Certified Professional 2016"}
+],
+ "title2":"PROFESSIONAL EXPERIENCE",
+ "employer":
+[
+{"position":"Part-Time Employee",
+ "name":"FGL Sports Ltd.,",
+ "place":"Mississauga, Ontario",
+ "year":"2015-Present",
+ "detail1":"By using RF scanner and walkie, involved in assisting picks, packs, put-away and palletizing for the replenishment/e-commerce departments and also helping shipping/PTL departments."},
+{"position":"Web Designer Volunteer",
+ "name":"Noah Education Fund",
+ "place":"Online",
+ "year":"2017-Present",
+ "detail2":"Volunteering remotely by writing review content on noahwriting a non-profit wordpress website, designed graphics elements for the upcoming new website and created company letterhead template using MS Word"}
+],
+"last" : "KRISHNA RAO",
+ "first": "PRADEEP",
+ "position": "Part-Time Employee",
+ "detail3" : "Perform tasks related to order picking/packing/put-away/palletizing/e-commerce in supply chain & logistics of a leading warehouse distribution center",
+ "title3" : "PERSONALITY HIGHLIGHTS",
+ "list":
+[
+{"first1" : "Patient",
+ "second" : "Hard working",
+ "third" : "Creative",
+ "fourth" : "Analytical",
+ "fifth":"Explorer",
+ "sixth":"Keen in learning technology"}
+ ],
+ "contact":
+ [{"description" : "CONTACT DETAILS",
+ "street" : "E***,M****** ********,***********a Rd.",
+ "city":"Bengaluru, Karnataka",
+ "country":"India",
+ "email":"pra**************@******.com",
+ "website":"pradeepkrishnarao.tripod.com",
+ "telephone":"984-***-****"}
+ ]
+}
